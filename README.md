@@ -2,6 +2,9 @@
 
 my config for kitty terminal
 
+> [!NOTE]
+> This config is opinionated and created by Abanoub Hanna, for Abanoub Hanna. You can use it as you like.
+
 ## my other configs
 
 - kitty config (this repo)

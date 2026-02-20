@@ -15,6 +15,25 @@ my config for kitty terminal
 - some performance optimizations
 - key mappings
 
+## How I install it ?
+
+```sh
+# install/upgrade kitty
+curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
+
+# symlink kitty
+sudo ln -s ~/.local/kitty.app/bin/kitty /usr/bin/kitty
+
+# symlink kitten
+sudo ln -s ~/.local/kitty.app/bin/kitten /usr/bin/kitten
+
+# kitty icon entry button to show in menu/dock
+sudo cp /home/ubuntu/.local/kitty.app/share/applications/* /usr/share/applications/
+
+# kitty icon for its entry menu/dock
+sudo cp /home/ubuntu/.local/kitty.app/share/icons/hicolor/scalable/apps/kitty.svg /usr/share/icons/
+```
+
 ## my other configs
 
 - kitty config (this repo)
